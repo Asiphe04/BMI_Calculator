@@ -1,9 +1,11 @@
 body {
-  background-color: burlywood;
+  background: linear-gradient(red, blue);
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+  min-height: 97.5vh;
 }
 input {
   height: 30px;
@@ -16,5 +18,15 @@ button:hover {
   background-color: green;
 }
 #weight-condition {
-  color: blue;
+  color: white;
+}
+footer {
+  color: white;
+}
+h2 {
+  color: white;
+}
+.container {
+  padding: 10px;
+  border: 5px solid rgb(215, 6, 215);
 }
