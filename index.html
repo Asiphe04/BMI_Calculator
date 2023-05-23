@@ -10,13 +10,48 @@
   <body>
     <div class="container">
       <h1>BMI CALCULATOR</h1>
+      <br />
+      <br />
+      Your Age:
+      <br />
+      <input
+        type="number"
+        class="input"
+        id="age"
+        placeholder="Enter your age"
+      />
+      <br />
+      <br />
       Your Height (cm):
-      <input type="number" class="input" id="height"  placeholder="Enter your height in cm">
+      <br />
+      <input
+        type="number"
+        class="input"
+        id="height"
+        placeholder="Enter your height"
+      />
+      <br />
+      <br />
       Your Weight (kg):
-      <input type="number" class="input" id="weight"  placeholder="Enter your weight in kg">
+      <br />
+      <input
+        type="number"
+        class="input"
+        id="weight"
+        placeholder="Enter your weight"
+      />
+      <br />
+      <br />
       <button class="btn" id="btn">Calculate BMI</button>
-      <input disabled type="text" class="input" id="bmi-result">
-      <h4 class="info-text">Weight Condition: <span id="weight-condition"></span></h4>
+      <br />
+      <br />
+      <input disabled type="text" class="input" id="bmi-result" />
+      <br />
+      <br />
+      <h4 class="info-text">
+        Weight Condition:
+        <div id="weight-condition"></div>
+      </h4>
     </div>
     <script src="/code.js"></script>
   </body>

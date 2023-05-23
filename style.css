@@ -1,7 +1,20 @@
 body {
-    background-color: burlywood;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  background-color: burlywood;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  height: 30px;
+}
+button {
+  height: 35px;
+  background-color: lightgreen;
+}
+button:hover {
+  background-color: green;
+}
+#weight-condition {
+  color: blue;
+}
