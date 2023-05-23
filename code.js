@@ -20,5 +20,5 @@ function calculateBMI() {
     weightConditionEl.innerText = "Obesity 😨";
   }
 }
-
+ 
 btnEl.addEventListener("click", calculateBMI);
